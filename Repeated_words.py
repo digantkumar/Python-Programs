@@ -12,6 +12,3 @@ def find_repeats(fname):
         if word_split[word] == word_split[word + 1]:
             print("Repeated word found: ", word_split[word])
     return ""
-
-file = "C://Users//Digant//Desktop//Digant Study docs//Interview etc//Behavioral Questions.txt"
-print(find_repeats(file))
